@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My first assignment</title>
+  
+  <style >
+    *{
+      box-sizing: border-box;
+    }
+    .row{
+      width: 100%;
+    }
+    .box{
+      height: 200px;
+      width: 350px;
+      box-sizing: border-box;
+      margin-right: 20px;
+      position: relative;
+      float: left;
+      background-color: red;
+      border: 2px solid black;
+    }
+    #p{
+      position: relative;
+      top:1px;
+      left: 250px;
+      bottom:0;
+      right: 0;
+      font-size: 15px;
+      color: black;
+      margin-top: 0;
+      margin-bottom: 0;
+      }
+        h1{
+      margin-right: 0;
+      margin-left: 0;
+    }
+    p{
+      padding: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 10;
+      position: absolute;
+      font-size: 30px;
+      font-family: sans-serif;
+    }
+    @media (min-width: 992px;){
+      .col-lg-3{
+        float: left;
+        border: 1px solid black;
+      }
+      .col-lg-3{
+        width: 33.33%;
+      }
+    }
+    @media (min-width: 768px;)and(max-width: 991px;){
+      .col-md-6{
+        float: left;
+        border: 1px solid black;
+      }
+      .col-md-6{
+        width: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1> my first assignment<h1>
+  <div class="row" >
+    <div class="box"><p id="p"  class="col-lg-3,col-md-6">Dhaka</p><p>It is the capital of BD.Here are air pollution.People of all type lives and eat.</p> </div>
+    <div class="box"><p id="p" class="col-lg-3,col-md-6">Chittagoan</p><p>It is very beautiful.if u wanna visit Bd ,visit it.</p></div>
+    <div class="box"><p id="p" class="col-lg-3,col-md-6" >Rangpur</p><p>i an  from here.so Rangpur is most beautiful.</p></div>
+  </div>
+</body>
+
+</body>
+</html>
